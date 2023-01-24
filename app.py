@@ -34,7 +34,7 @@ university = input('Enter university ')
 fromDate = input('From Date ')
 toDate = input('to Date ')
 
-p.add_run('university' + ' ').bold = True
+p.add_run(university + ' ').bold = True
 p.add_run(fromDate + '-' + toDate + '\n').italic = True
 
 speak(' Describe your experience at ' + university + ' ')
